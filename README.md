@@ -1,6 +1,6 @@
-# Vattna_Bara 
+# Radio Node 
 
-Using an ATtiny84 and NRF24l01 module. Controlled via HomeAssistant. 
+An ATtiny84A and a NRF24l01 module. Controlled via [MQTT-Radio-Gateway](https://github.com/Peppson/MQTT-Radio-Gateway). 
 - [Pcb](#Pcb)
 - [Schematic](#Schematic)
 - [Parts](#Parts)
@@ -8,7 +8,7 @@ Using an ATtiny84 and NRF24l01 module. Controlled via HomeAssistant.
 &nbsp;
 ## Pcb
 &nbsp;
-![img](https://github.com/Peppson/Vattna_Bara/blob/main/Images/NRF_Node_PcbNaked.png)
+![img](https://github.com/Peppson/Radio-Node/blob/main/Images/Node_Pcb.png)
 
   
 
