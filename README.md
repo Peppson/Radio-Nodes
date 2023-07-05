@@ -1,6 +1,6 @@
 # Radio Node 
 
-An ATtiny84A and a NRF24l01 module. Controlled via [MQTT-Radio-Gateway](https://github.com/Peppson/MQTT-Radio-Gateway). 
+Basically an ATtiny84A and a NRF24l01 module. Controlled via [MQTT-Radio-Gateway](https://github.com/Peppson/MQTT-Radio-Gateway). 
 - [Pcb](#Pcb)
 - [Schematic](#Schematic)
 - [Parts](#Parts)
