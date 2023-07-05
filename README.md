@@ -5,17 +5,16 @@ Basically an ATtiny84A with a NRF24l01 module. Controlled via [MQTT-Radio-Gatewa
 - [Schematic](#Schematic)
 - [Parts](#Parts)
 
-
+<!--  - **p**: p.   -->
 &nbsp;
 ## Features
 
 - **Low powered**: The radio node uses about 12 mW in active mode (at 3.3V with 3.5 mA).
 - **Deepsleep mode**: Power consumption reduced to 29.7 μW (at 3.3V with 9 μA).
-- **Battery / Water level**: The node continuously monitors and transmits both its battery and the water level.
-
-
-
-
+- **Status reporting**: The node continuously monitors and transmits both its battery and water level.
+- **EEPROM usage**: Stores data in the EEPROM, ensuring data persistence in the event of power loss or self reset.
+- **Real-time clock sync**: Enables timekeeping across nodes by syncing their clocks, ensuring a maximum deviation of ±1 minute for scheduling and time-dependent tasks.
+- **Flexible configuration**: Utilizes the "Config.h" file for easy customization of "Node tasks".
 
 
 
@@ -30,8 +29,6 @@ Basically an ATtiny84A with a NRF24l01 module. Controlled via [MQTT-Radio-Gatewa
 
 
 
-
-
 &nbsp;
 ## Schematic
 &nbsp;
@@ -41,7 +38,7 @@ Basically an ATtiny84A with a NRF24l01 module. Controlled via [MQTT-Radio-Gatewa
 
 
 
-## Parts
+## Parts used
 - Generic Solar Panel 5-6V
 - SPDT Switch
 - TP4056 Module [Link](https://www.amazon.se/ZkeeShop-laddningsmodul-litiumbatteri-laddningskort-skyddsfunktion/dp/B08BZP283B/ref=sr_1_5?crid=26YZ4CVG0ZU1C&keywords=TP4056&qid=1684667989&sprefix=tp4056%2Caps%2C87&sr=8-5)
@@ -55,10 +52,10 @@ Basically an ATtiny84A with a NRF24l01 module. Controlled via [MQTT-Radio-Gatewa
 - Terminal Blocks 
 - Waterpump 3-5V [Link](https://www.amazon.se/-/en/ICQUANZX-Submersible-1-2-1-6L-0-3-0-8m-Aquarium/dp/B088LQ4C1Z/ref=sr_1_6?crid=1BOGNJLGL3Y88&keywords=vattenpump+3v&qid=1684668502&sprefix=vattenpump+3v%2Caps%2C115&sr=8-6)
 - ATtiny84A MCU
-
-
-
 - Dil Socket 14 
 - NRF24L01 [Link](https://www.amazon.se/-/en/AZDelivery-Compatible-NRF24L01-Wireless-Raspberry/dp/B075DBDS3J/ref=sr_1_5?keywords=nrf24l01&qid=1684668788&sprefix=nrf24%2Caps%2C91&sr=8-5&th=1)
-
 &nbsp;
+
+
+
+
