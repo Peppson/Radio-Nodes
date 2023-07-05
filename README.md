@@ -1,7 +1,7 @@
 # Radio Node 
 The Radio Node is an ATtiny84A-based module equipped with an NRF24L01 radio module.  
 It serves as the "end node" in the [MQTT-Radio-Gateway](https://github.com/Peppson/MQTT-Radio-Gateway) network.   
-Can run directly on 5V, or via a small solarpanel. Or approximately 50 days with a small battery (3300mAh).  
+Can run directly on 5V, a small solarpanel or approximately 50 days with a small battery (3300mAh).  
 Why not all three?:)
 
 - [Pcb](#Pcb)
@@ -34,7 +34,6 @@ Why not all three?:)
 
 &nbsp;
 ## Schematic
-[Kicad](https://github.com/Peppson/Radio-Node/blob/main/Kicad/Node.kicad_pcb)
 &nbsp;
 ![img](https://github.com/Peppson/Vattna_Bara/blob/main/Node_Schematic.png)
 &nbsp;
