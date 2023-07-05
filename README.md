@@ -11,6 +11,9 @@ Basically an ATtiny84A with a NRF24l01 module. Controlled via [MQTT-Radio-Gatewa
 
 - **Low powered**: The radio node uses about 12 mW in active mode (at 3.3V with 3.5 mA).
 - **Deepsleep mode**: Power consumption reduced to 29.7 μW (at 3.3V with 9 μA).
+- **Battery / Water level**: The node continuously monitors and transmits both its battery and the water level.
+
+
 
 
 
