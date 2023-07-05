@@ -34,7 +34,7 @@ void setup() {
 // Main loop
 void loop() {
     // Save power, toggle transciever on/off
-    for (uint8_t i = 0; i <= MAIN_LOOP_ITERATIONS; i++) {
+    for (uint8_t i = 0; i < MAIN_LOOP_ITERATIONS; i++) {
         uint16_t RF24_package[6];
 
         // Powerup radio, reset watchdog
