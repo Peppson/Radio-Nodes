@@ -13,7 +13,7 @@ Why not all three?:)
 &nbsp;
 ## Features
 
-- **Low powered**: The radio node uses about 12 mW in active mode (at 3.3V with 3.5 mA).
+- **Low powered**: The node uses about 12 mW in active mode (at 3.3V with 3.5 mA).
 - **Deepsleep mode**: Power consumption reduced to 29.7 μW (at 3.3V with 9 μA).
 - **Status reporting**: The node continuously monitors and transmits both its battery and water level.
 - **EEPROM usage**: Stores data in the EEPROM, ensuring data persistence in the event of power loss or self reset.
