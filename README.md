@@ -9,7 +9,7 @@ Why not all three?:)
 - [Parts used](#Parts)
 
 
-<!--  - **p**: p.   -->
+
 &nbsp;
 ## Features
 
@@ -34,6 +34,7 @@ Why not all three?:)
 
 &nbsp;
 ## Schematic
+[Kicad](https://github.com/Peppson/Radio-Node/blob/main/Kicad/Node.kicad_pcb)
 &nbsp;
 ![img](https://github.com/Peppson/Vattna_Bara/blob/main/Node_Schematic.png)
 &nbsp;
