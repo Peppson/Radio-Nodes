@@ -1,8 +1,8 @@
 # Radio Nodes 
-The Radio Node is an ATtiny84A-based module equipped with an NRF24L01 radio.  
+The Radio Node is an ATtiny84-based module equipped with an NRF24L01+ radio.  
 It serves as the "end node" in the [MQTT-Radio-Gateway](https://github.com/Peppson/MQTT-Radio-Gateway) network.   
-Can run directly on 2-7V, a small solarpanel or approximately 50 days with a small battery (3300mAh).  
-Or why not all three?:)
+Can run directly on 2-7V, a small solarpanel or approximately 50 days with a small battery (3000mAh).  
+Or why not all three? >:)
 
 - [Pcb](#Pcb)
 - [Schematic](#Schematic)
@@ -13,12 +13,12 @@ Or why not all three?:)
 &nbsp;
 ## Features
 
-- **Low powered**: The node uses about 12 mW in active mode (at 3.3V with 3.5 mA).
-- **Deepsleep mode**: Power consumption reduced to 29.7 μW (at 3.3V with 9 μA).
-- **Status reporting**: The node continuously monitors and transmits both its battery and water level.
+- **Low powered**: Nodes use about 12 mW in active mode (at 3.3V with 3.5 mA).
+- **Deepsleep**: Power consumption reduced to 29.7 μW (at 3.3V with 9 μA) while asleep.
+- **Flexible config**: Utilizes the "Config.h" file for easy customization of "Node tasks".
+- **Real-time clock sync**: Enables timekeeping across nodes by syncing their clocks.
 - **EEPROM usage**: Stores data in the EEPROM, ensuring data persistence in the event of power loss or self reset.
-- **Real-time clock sync**: Enables timekeeping across nodes by syncing their clocks, ensuring a maximum deviation of ±1 minute for scheduling and time-dependent tasks.
-- **Flexible configuration**: Utilizes the "Config.h" file for easy customization of "Node tasks".
+- **Logging**: Nodes continuously monitor and transmit their chosen sensor values.
 
 
 
