@@ -28,7 +28,7 @@ Or why not all three? >:)
 &nbsp;
 ## Pcb
 &nbsp;
-![img](https://github.com/Peppson/Radio-Node/blob/main/Images/Node_Pcb.png)
+![img](https://github.com/Peppson/Radio-Nodes/blob/main/Images/Node%20pcb.png)
 
 
 
