@@ -19,12 +19,12 @@
 # - splitting up package into small chunks of data                 #
 #                                                                  #
 # - uint16_t RF24_package[6] = {}                                  #
-# - RF24_package[0] = to_who                                       #
-# - RF24_package[1] = from_who                                     #
-# - RF24_package[2] = "int"                                        #
-# - RF24_package[3] = "float"                                      #
-# - RF24_package[4] = "bool"                                       #
-# - RF24_package[5] = "time"                                       #
+# - RF24_package[0] = from_who                                     #
+# - RF24_package[1] = to_who                                       #
+# - RF24_package[2] = data 0                                       #
+# - RF24_package[3] = data 1                                       #
+# - RF24_package[4] = bool                                         #
+# - RF24_package[5] = time                                         #
 #                                                                  #
 ####################################################################
  
