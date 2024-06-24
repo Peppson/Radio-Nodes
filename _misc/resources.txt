@@ -1,0 +1,18 @@
+
+
+// Diy UPDI programmer
+https://github.com/ElTangas/jtag2updi
+https://daumemo.com/diy-updi-usb-programmer-which-can-be-made-with-cheap-hardware/
+https://github.com/ElTangas/jtag2updi#using-with-avrdude
+
+
+// Basic ATtiny 2-series guide
+https://btbm.ch/notes-on-using-the-new-attiny/
+
+
+// IOT battery life calculator
+https://www.of-things.de/battery-life-calculator.php
+
+
+// ATtiny824 datasheet
+https://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny424-426-427-824-826-827-DataSheet-DS40002311A.pdf

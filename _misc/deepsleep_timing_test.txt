@@ -1,0 +1,13 @@
+
+Whole board deepsleep = 3uA @ 3.3V
+
+15 min 
+18:53:49.706 > start
+19:08:49.817 > stop
+
+2h
+19:22:44.489 > start
+21:22:48.503 > stop
+
+12h TODO
+ 

@@ -1,0 +1,13 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "mysensors_arduino")(type "Legacy")(uri "${KIPRJMOD}/libs/mysensors_symbols-master/mysensors_arduino.lib")(options "")(descr ""))
+  (lib (name "mysensors_connectors")(type "Legacy")(uri "${KIPRJMOD}/libs/mysensors_symbols-master/mysensors_connectors.lib")(options "")(descr ""))
+  (lib (name "mysensors_logic")(type "Legacy")(uri "${KIPRJMOD}/libs/mysensors_symbols-master/mysensors_logic.lib")(options "")(descr ""))
+  (lib (name "mysensors_mcu")(type "Legacy")(uri "${KIPRJMOD}/libs/mysensors_symbols-master/mysensors_mcu.lib")(options "")(descr ""))
+  (lib (name "mysensors_memories")(type "Legacy")(uri "${KIPRJMOD}/libs/mysensors_symbols-master/mysensors_memories.lib")(options "")(descr ""))
+  (lib (name "mysensors_network")(type "Legacy")(uri "${KIPRJMOD}/libs/mysensors_symbols-master/mysensors_network.lib")(options "")(descr ""))
+  (lib (name "mysensors_radios")(type "Legacy")(uri "${KIPRJMOD}/libs/mysensors_symbols-master/mysensors_radios.lib")(options "")(descr ""))
+  (lib (name "mysensors_regulators")(type "Legacy")(uri "${KIPRJMOD}/libs/mysensors_symbols-master/mysensors_regulators.lib")(options "")(descr ""))
+  (lib (name "mysensors_security")(type "Legacy")(uri "${KIPRJMOD}/libs/mysensors_symbols-master/mysensors_security.lib")(options "")(descr ""))
+  (lib (name "mysensors_sensors")(type "Legacy")(uri "${KIPRJMOD}/libs/mysensors_symbols-master/mysensors_sensors.lib")(options "")(descr ""))
+)

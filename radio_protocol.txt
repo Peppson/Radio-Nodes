@@ -1,0 +1,37 @@
+
+
+----- Self Watering Flowerpots [1-10] -----
+RX: 
+    - from_who          = From who
+    - to_who            = To who
+    - state             = Run waterpump? 
+    - data_0            = Run waterpump for how long
+    - data_1            = Unused
+    - data_2            = 0xFFFE = resend message / 0xFFFF = reboot / Current time (hhmm)
+TX:
+    - from_who          = From who
+    - to_who            = To who
+    - state             = Unused 
+    - data_0            = Water level
+    - data_1            = Battery charge (if battery driven)
+    - data_2            = Unused / 0xFFFF = request current time
+
+
+
+----- MoccaMaster [11] -----
+RX: 
+    - from_who          = From who
+    - to_who            = To who
+    - state             = Turn on coffeemachine? 
+    - data_0            = Unused
+    - data_1            = Unused
+    - data_2            = 0xFFFE = resend message / 0xFFFF = reboot / Current time (hhmm)
+TX:
+    - from_who          = From who
+    - to_who            = To who
+    - state             = Current state of coffemachine 
+    - data_0            = Number of coffees made (EEPROM)
+    - data_1            = Unused
+    - data_2            = Unused / 0xFFFF = request current time
+
+...
