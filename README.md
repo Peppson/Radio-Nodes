@@ -11,7 +11,7 @@ Written in C++ with PlatformIO framework.
 &nbsp;
 ## Project Overview
 - Each node is easily configurable to perform various tasks, such as watering plants,   
-turning on the coffeemaker, opening blinds, etc.  
+turn on the coffeemaker, opening blinds, relaying sensor data, etc. 
 
 - Power consumption was the main concern when designing this.   
 Nodes consumes ∼`2mA` @ 3.3V in active mode, and as low as ∼`3uA` @ 3.3V while deepsleeping!  
