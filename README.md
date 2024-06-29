@@ -4,7 +4,7 @@
 
 # radio-nodes
 
-Solar/Battery/USB powered wireless "smarhome" modules, based on the Attiny824 microcontroller.  
+Solar/Battery/USB powered wireless "smarthome" modules, based on the Attiny824 microcontroller.  
 Serves as the end-node of [MQTT-radio-gateway](https://github.com/Peppson/MQTT-radio-gateway).   
 Written in C++ with PlatformIO framework.  
 
