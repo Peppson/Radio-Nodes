@@ -28,7 +28,11 @@ and the [Attiny824](https://www.mouser.se/ProductDetail/Microchip-Technology/ATT
 
 KiCad files: [📂 _KiCad/](./_KiCad/)  
 More images in: [📂 _images/](./_images/)  
+&nbsp;
+> [!WARNING]
+> Current PCB is wrong. Q1, Q2 and Q3 are incorrectly connected. Will update soon™
 
+&nbsp;
 <details>
 <summary>
     Schematic
